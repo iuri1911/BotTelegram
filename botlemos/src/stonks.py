@@ -13,7 +13,7 @@ def cotar(corno):
     data = aud.json()
     audf = float(data['AUD']['ask'])
 
-    image = Image.open(r'C:\Users\theoz\Desktop\BotTelegram\src\stonksl.png')
+    image = Image.open('stonksl.png')
 
     font_type = ImageFont.truetype('impact.ttf', 40)
     font_type2 = ImageFont.truetype('impact.ttf', 30)
@@ -27,7 +27,7 @@ def cotar(corno):
     draw.text(xy=(300, 430), text='AUD : ${:.2f}'.format(audf), fill=(255, 255, 255),
               font=font_type, stroke_fill=2, stroke_width=2)
 
-    image.save(r'C:\Users\theoz\Desktop\BotTelegram\src\cotacao.png')
+    image.save('cotacao.png')
 
 
 def frasear():
