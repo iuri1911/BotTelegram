@@ -22,9 +22,9 @@ def cotar(corno):
 
     draw.text(xy=(190, 180), text='{} É CORNO'.format(corno), fill=(255, 255, 255),
               font=font_type2, stroke_fill=2, stroke_width=2)
-    draw.text(xy=(300, 380), text='USD : ${:.2f}'.format(usdf), fill=(255, 255, 255),
+    draw.text(xy=(300, 380), text='USD : R${:.2f}'.format(usdf), fill=(255, 255, 255),
               font=font_type, stroke_fill=2, stroke_width=2)
-    draw.text(xy=(300, 430), text='AUD : ${:.2f}'.format(audf), fill=(255, 255, 255),
+    draw.text(xy=(300, 430), text='AUD : R${:.2f}'.format(audf), fill=(255, 255, 255),
               font=font_type, stroke_fill=2, stroke_width=2)
 
     image.save('cotacao.png')
