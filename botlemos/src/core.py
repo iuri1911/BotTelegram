@@ -6,7 +6,7 @@ url = 'https://economia.awesomeapi.com.br/all/USD-BRL'
 
 def hello(update, context):
     update.message.reply_text(
-        'IAE {} SEU CORNO DA DESGRAÇA'.format(update.message.from_user.first_name))
+        'IAE {} SEU CORNO DA DESGRACA'.format(update.message.from_user.first_name))
 
 
 def dolar(update, context):
