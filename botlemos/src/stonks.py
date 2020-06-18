@@ -76,7 +76,7 @@ def coronar(corno):
 
 def frasear():
 
-    url = 'https://allugofrases.herokuapp.com/fraseAleatoria'
+    url = 'https://allugofrases.herokuapp.com/frases/random'
     r = requests.get(url)
     data = r.json()
     f = data['frase']
